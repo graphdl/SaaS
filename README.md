@@ -3,7 +3,6 @@
 - Idea
 - Waitlist
 
-User~subscribes~SaaS. H~2~O
 
 ```yaml
 
