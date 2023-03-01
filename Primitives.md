@@ -1,6 +1,6 @@
 # SaaS Primitives
 
-```yaml graphdl
+```yaml
 
 API:
   @type:         https://schema.org/WebAPI
