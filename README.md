@@ -1,2 +1,4 @@
-# SaaS Examples
+# SaaS Primitives & Examples
 
+- Idea
+- Waitlist
