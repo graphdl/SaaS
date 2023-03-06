@@ -1,0 +1,11 @@
+Visitor:
+  arrives: Website
+
+User:
+  registers: SaaS
+
+Customer:
+  subscribes: SaaS
+  cancels: SaaS
+  shares: SaaS
+
