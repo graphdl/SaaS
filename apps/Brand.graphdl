@@ -1,0 +1,57 @@
+SaaS:
+  persona: string | Persona
+  problem: string | Problem
+  solution: string | Solution
+  brand: Brand
+  plans: [Plan]
+  journey: [string | CallToAction]
+  success: string | [string]
+  failure: string | [string]
+  transformation:
+    from: string | [string]
+    to: string | [string]
+
+Brand:
+  name: string
+  logo: string | svg | url
+  tagline: string
+  colors: [string]
+  fonts: [string]
+  images: [url]
+  videos: [url]
+  social: [Social]
+  website: url
+  blog: url
+  docs: url
+  support: url
+  careers: url
+  about: url
+  contact: url
+  privacy: url
+  terms: url
+  faq: url
+  press: url
+  roadmap: url
+  status: url
+  feedback: url
+
+
+Persona:
+  role: string
+  action: string
+  subject: string
+
+Problem:
+  external: string
+  internal: string
+  philosophical: string
+  villian: string
+
+Solution:
+  name: string
+  description: string
+
+CallToAction:
+  name: string
+  description: string
+  url: url
