@@ -84,6 +84,14 @@ Registration:
   _action: registers
   _object: SaaS
   email: EmailSequence
+  
+User:
+  _subject: User
+  _action: uses
+  _reverse: is used by
+  _inverse: doesn't use
+  _object: SaaS
+  email: EmailSequence
 
 Onboarding:
   _subject: User
