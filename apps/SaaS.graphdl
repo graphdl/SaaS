@@ -37,6 +37,8 @@ Visitor:
   country: string
   continent: string
   browser: string
+  ja3hash: string
+  fingerprint: string
 
 Prospect:
   _type: Visitor
