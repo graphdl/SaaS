@@ -87,11 +87,10 @@ Registration:
   _object: SaaS
   email: EmailSequence
   
-User:
+Using:
   _subject: User
   _action: uses
-  _reverse: is used by
-  _inverse: doesn't use
+  _reverse: users
   _object: SaaS
   email: EmailSequence
 
