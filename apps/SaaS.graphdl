@@ -28,7 +28,7 @@ Plan:
   
 Visitor:
   _type: Person
-  visits: [Site->visits]
+  visits: [SaaS->visits]
   registers: [SaaS->registrations]
   ip: string
   isp: string
