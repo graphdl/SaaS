@@ -1,9 +1,9 @@
 SaaS:
   plans: [Plan]
-  visitors: [Visitors<-visits]
-  registrations: [Visitor<-registrations]
-  logins: [User<-logsIn]
-  users: [User<-uses]
+  visitors: [Visitors->visits]
+  registrations: [Visitor->registrations]
+  logins: [User->logsIn]
+  users: [User->uses]
   onboardings: [User->onboards]
   activations: [User->activates]
   subscriptions: [User->subscribes]
