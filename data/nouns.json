@@ -1,0 +1,393 @@
+[
+  {
+    "slug": "alert",
+    "name": "Alert",
+    "description": "Alert noun, for Maker App: Brand Mention Monitoring.",
+    "fields": {
+      "@text": {
+        "label": "Text"
+      },
+      "@username": {
+        "label": "Username"
+      },
+      "@url": {
+        "label": "URL"
+      }
+    }
+  },
+  {
+    "slug": "event",
+    "name": "Event",
+    "description": "",
+    "fields": {
+      "@status": {
+        "label": "Status"
+      },
+      "@description": {
+        "label": "Description"
+      },
+      "@invitee_name": {
+        "label": "Invitee Name"
+      },
+      "@event_name": {
+        "label": "Event Name"
+      },
+      "@time_zone": {
+        "label": "Time Zone"
+      },
+      "@type": {
+        "label": "Type"
+      },
+      "@end_date_time": {
+        "label": "End Date Time"
+      },
+      "@location": {
+        "label": "Location"
+      },
+      "@owner": {
+        "label": "Owner"
+      },
+      "@id": {
+        "label": "Id"
+      },
+      "@start_date_time": {
+        "label": "Start Date Time"
+      },
+      "@invitee_email": {
+        "label": "Invitee (Email)"
+      }
+    }
+  },
+  {
+    "slug": "message",
+    "name": "Message",
+    "description": "",
+    "fields": {
+      "@ccbcc": {
+        "label": "Cc/Bcc"
+      },
+      "@body": {
+        "label": "Body"
+      },
+      "@name_sender": {
+        "label": "Name: Sender"
+      },
+      "@phone_sender": {
+        "label": "Phone: Sender"
+      },
+      "@name_recipient": {
+        "label": "Name: Recipient"
+      },
+      "@username_sender": {
+        "label": "Username: Sender"
+      },
+      "@email_recipient": {
+        "label": "Email: Recipient"
+      },
+      "@id": {
+        "label": "Id"
+      },
+      "@time_sent": {
+        "label": "Time Sent"
+      },
+      "@subject": {
+        "label": "Subject"
+      },
+      "@email_sender": {
+        "label": "Email: Sender"
+      },
+      "@id_sender": {
+        "label": "Id: Sender"
+      },
+      "@attachment": {
+        "label": "Attachment"
+      },
+      "@id_recipient": {
+        "label": "Id: Recipient"
+      },
+      "@username_recipient": {
+        "label": "Username: Recipient"
+      },
+      "@phone_recipient": {
+        "label": "Phone: Recipient"
+      },
+      "@mailboxchannel": {
+        "label": "Mailbox/Channel"
+      }
+    }
+  },
+  {
+    "slug": "file",
+    "name": "File",
+    "description": null,
+    "fields": {
+      "@description": {
+        "label": "Description"
+      },
+      "@folder_id": {
+        "label": "Folder Id"
+      },
+      "@tags": {
+        "label": "Tags"
+      },
+      "@creator_name": {
+        "label": "Creator Name"
+      },
+      "@file_name": {
+        "label": "File Name"
+      },
+      "@file_object": {
+        "label": "File Object"
+      },
+      "@file_url": {
+        "label": "File Url"
+      },
+      "@owner_name": {
+        "label": "Owner Name"
+      },
+      "@folder_name": {
+        "label": "Folder Name"
+      },
+      "@created_date": {
+        "label": "Created Date"
+      },
+      "@id": {
+        "label": "Id"
+      },
+      "@type": {
+        "label": "Type"
+      }
+    }
+  },
+  {
+    "slug": "person",
+    "name": "Person",
+    "description": "",
+    "fields": {
+      "@last_name": {
+        "label": "Last Name"
+      },
+      "@city": {
+        "label": "City"
+      },
+      "@first_name": {
+        "label": "First Name"
+      },
+      "@title": {
+        "label": "Title"
+      },
+      "@company": {
+        "label": "Company"
+      },
+      "@country": {
+        "label": "Country"
+      },
+      "@note": {
+        "label": "Note"
+      },
+      "@email": {
+        "label": "Email"
+      },
+      "@birthday": {
+        "label": "Birthday"
+      },
+      "@website": {
+        "label": "Website"
+      },
+      "@state": {
+        "label": "State"
+      },
+      "@phone": {
+        "label": "Phone"
+      },
+      "@postal_code": {
+        "label": "Postal Code"
+      },
+      "@facebook": {
+        "label": "Facebook"
+      },
+      "@address": {
+        "label": "Address"
+      },
+      "@name": {
+        "label": "Name"
+      },
+      "@twitter": {
+        "label": "Twitter"
+      },
+      "@street_2": {
+        "label": "Street 2"
+      },
+      "@id": {
+        "label": "Id"
+      },
+      "@street": {
+        "label": "Street"
+      },
+      "@fax": {
+        "label": "Fax"
+      },
+      "@zap_meta_record_url": {
+        "label": "Zap Meta Record URL"
+      }
+    }
+  },
+  {
+    "slug": "order",
+    "name": "Order",
+    "description": null,
+    "fields": {
+      "@order_description": {
+        "label": "Order Description"
+      },
+      "@customer_email": {
+        "label": "Customer Email"
+      },
+      "@customer_full_name": {
+        "label": "Customer Full Name"
+      },
+      "@shipping_city": {
+        "label": "Shipping City"
+      },
+      "@shipping_phone": {
+        "label": "Shipping Phone"
+      },
+      "@price": {
+        "label": "Price"
+      },
+      "@customer_notes": {
+        "label": "Customer Notes"
+      },
+      "@shipping_state": {
+        "label": "Shipping State"
+      },
+      "@date": {
+        "label": "Date"
+      },
+      "@billing_postal_code": {
+        "label": "Billing Postal Code"
+      },
+      "@billing_city": {
+        "label": "Billing City"
+      },
+      "@shipping_postal_code": {
+        "label": "Shipping Postal Code"
+      },
+      "@billing_street_1": {
+        "label": "Billing Street 1"
+      },
+      "@billing_street_2": {
+        "label": "Billing Street 2"
+      },
+      "@shipping_country": {
+        "label": "Shipping Country"
+      },
+      "@billing_state": {
+        "label": "Billing State"
+      },
+      "@quantity": {
+        "label": "Quantity"
+      },
+      "@customer_first_name": {
+        "label": "Customer First Name"
+      },
+      "@billing_country": {
+        "label": "Billing Country"
+      },
+      "@currency": {
+        "label": "Currency"
+      },
+      "@company": {
+        "label": "Company"
+      },
+      "@total": {
+        "label": "Total"
+      },
+      "@id": {
+        "label": "Id"
+      },
+      "@billing_phone": {
+        "label": "Billing Phone"
+      },
+      "@customer_last_name": {
+        "label": "Customer Last Name"
+      },
+      "@tax_total": {
+        "label": "Tax Total"
+      },
+      "@item_name": {
+        "label": "Item Name"
+      },
+      "@shipping_street_2": {
+        "label": "Shipping Street 2"
+      },
+      "@shipping_street_1": {
+        "label": "Shipping Street 1"
+      },
+      "@order_status": {
+        "label": "Order Status"
+      }
+    }
+  },
+  {
+    "slug": "task",
+    "name": "Task",
+    "description": "",
+    "fields": {
+      "@due_date": {
+        "label": "Due Date"
+      },
+      "@updated_date": {
+        "label": "Updated Date"
+      },
+      "@description": {
+        "label": "Description"
+      },
+      "@commentsnotes": {
+        "label": "Comments/Notes"
+      },
+      "@title": {
+        "label": "Title"
+      },
+      "@completion_status": {
+        "label": "Completion Status"
+      },
+      "@tags": {
+        "label": "Tags"
+      },
+      "@completed_date": {
+        "label": "Completed Date"
+      },
+      "@url": {
+        "label": "Url"
+      },
+      "@created_by_name": {
+        "label": "Created By Name"
+      },
+      "@priority": {
+        "label": "Priority"
+      },
+      "@assignee_name": {
+        "label": "Assignee Name"
+      },
+      "@attachment": {
+        "label": "Attachment"
+      },
+      "@created_date": {
+        "label": "Created Date"
+      },
+      "@assignee_id": {
+        "label": "Assignee Id"
+      },
+      "@created_by_id": {
+        "label": "Created By Id"
+      },
+      "@id": {
+        "label": "Id"
+      },
+      "@zap_meta_record_url": {
+        "label": "Zap Meta Record URL"
+      }
+    }
+  }
+]
