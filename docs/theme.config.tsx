@@ -1,17 +1,18 @@
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
+import { Logo } from './components/Logo'
 
 const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
+  logo: <Logo/>,
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: 'https://github.com/graphdl/saas',
   },
   chat: {
     link: 'https://discord.com',
   },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  docsRepositoryBase: 'https://github.com/graphdl/graphdl/blob/main/docs',
   footer: {
-    text: 'Nextra Docs Template',
+    text: 'OpenSaaS.org',
   },
 }
 
