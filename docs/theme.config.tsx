@@ -10,7 +10,7 @@ const config: DocsThemeConfig = {
   chat: {
     link: 'https://discord.com',
   },
-  docsRepositoryBase: 'https://github.com/graphdl/graphdl/blob/main/docs',
+  docsRepositoryBase: 'https://github.com/graphdl/saas/blob/main/docs',
   footer: {
     text: 'OpenSaaS.org',
   },
