@@ -14,6 +14,11 @@ const config: DocsThemeConfig = {
   footer: {
     text: 'OpenSaaS.org',
   },
+  useNextSeoProps() {
+    return {
+      titleTemplate: '%s – OpenSaaS',
+    }
+  }
 }
 
 export default config
