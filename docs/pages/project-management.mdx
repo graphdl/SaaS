@@ -1,0 +1,15 @@
+# Project Management
+
+Managing projects, tasks, priorities, dependencies and deadlines is a key aspect of
+building and operating any SaaS.
+
+```yaml
+Project:
+  _sameAs: https://schema.org/Project
+  tasks: [Task->projects]
+
+Task:
+  _sameAs: https://schema.org/PlanAction
+  projects: [Project.tasks]
+
+```
