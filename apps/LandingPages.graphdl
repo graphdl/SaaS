@@ -103,7 +103,12 @@ Logos:
   _type: Section & Map<string, svg | url | Image>
 
 Features:
-  _type: Section & Map<string, Markdown>
+  _type: Section
+  features: [Feature]
+
+Feature:
+  name: string
+  description: markdown
 
 Benefits:
   _type: Section & Map<string, Markdown>
