@@ -1,0 +1,187 @@
+LandingPage: 
+  _sameAs: 
+    - https://schema.org/WebPage
+    - https://schema.org/WebSite
+  brand: Brand
+  seo: SEO
+  header: Header
+  hero: Hero
+  logos: Logos
+  features: Features
+  benefits: Benefits
+  testimonials: Testimonials
+  newsletter: Newsletter
+  blog: Blog
+  stats: Stats
+  contact: Contact
+  team: Team
+  pricing: Pricing
+  faq: FAQ
+  cta: CallToAction
+  footer: Footer
+
+Brand:
+  name: string
+  logo: string | url | svg | Image
+  icon: string | url | svg | Image
+  tagline: string
+  description: string | markdown
+  primaryColor: color
+  secondaryColor: color
+  backgroundColor: color
+  textColor: color
+  linkColor: color
+  primaryFont: font | url
+
+SEO:
+  title: string
+  titleTemplate: string
+  defaultTitle: string
+  description: string
+  canonical: url
+  mobileAlternate:
+    media: string
+    href: url
+  languageAlternates: [LanguageAlternate]
+  themeColor: color
+  additionalMetaTags: [MetaTag]
+  additionalLinkTags: [LinkTag]
+  twitter:
+    cardType: summary | summary_large_image | app | player
+    site: twitterHandle = @opensaas_org
+  facebook:
+    appId: number
+  openGraph:
+    url: url
+    type: basic | video | article | book | profile | website
+    title: string
+    description: string
+    images: [Image]
+    videos: [Video]
+    locale: string
+    siteName: string
+    profile:
+      firstName: string
+      lastName: string
+      username: string
+      gender: string
+    book:
+      authors: [string]
+      isbn: string
+      releaseDate: date
+      tags: [string]
+    article:
+      publishedTime: date
+      modifiedTime: date
+      expirationTime: date
+      authors: [string]
+      section: string
+      tags: [string]
+  noindex: boolean
+  nofollow: boolean
+  robots:
+    nosnippet: boolean
+    notranslate: boolean
+    noimageindex: boolean
+    noarchive: boolean
+    maxSnippet: number
+    maxImagePreview: none | standard | large
+    maxVideoPreview: number
+
+
+Header:
+  logo: string | url | svg | Image
+  menu: [MenuItem]
+  search: boolean | html | jsx = false
+  repo: url
+  action: Action | [Action]
+
+Hero: 
+  _type: Section
+
+Logos:
+  _type: Section & Map<string, svg | url | Image>
+
+Features:
+  _type: Section
+  features: [Feature]
+
+Feature:
+  name: string
+  description: markdown
+
+Benefits:
+  _type: Section & Map<string, Markdown>
+
+Section: 
+  _sameAs: https://schema.org/WebPageElement
+  headerBadge: string
+  headerText: string
+  title: string
+  subtitle: string
+  description: string | markdown
+  image: url | svg | Code | Image
+  imagePosition: Left | Right | Center
+  action: Action | [Action]
+
+LanguageAlternate:
+  href: url
+  hreflang: string
+
+MetaTag: MetaTagName | MetaTagProperty | MetaTagHttpEquiv
+
+MetaTagName:
+  name: string!
+  content: string!
+
+MetaTagProperty:
+  property: string!
+  content: string!
+
+MetaTagHttpEquiv:
+  httpEquiv: string!
+  content: string!
+
+LinkTag:
+  rel: string!
+  href: url!
+  hreflang: string
+  media: string
+  type: string
+  sizes: string
+  crossOrigin: anonymous | use-credentials
+
+Image:
+  _sameAs: https://schema.org/ImageObject
+  url: url
+  alt: string
+  width: integer
+  height: integer
+  aspectRatio: number
+
+Video:
+  _sameAs: https://schema.org/VideoObject
+  url: url
+  secureUrl: url
+  type: string
+  width: integer
+  height: integer
+  aspectRatio: number
+  duration: integer
+  uploadDate: date
+  expirationDate: date
+  embedUrl: url
+  embedCode: string
+
+MenuItem:
+  _sameAs: https://schema.org/SiteNavigationElement
+  [string]: url
+
+Code:
+  _sameAs: https://schema.org/SoftwareSourceCode
+  language: string
+  code: string
+  filename: string
+  highlight: number | [number]
+
+Colors: https://pkg.do/tailwindcss/colors
