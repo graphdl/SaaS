@@ -36,6 +36,69 @@ LandingPage:
   cta: CallToAction
   footer: Footer
 
+
+Header:
+  logo: string | url | svg | Image
+  menu: [MenuItem]
+  search: boolean | html | jsx = false
+  repo: url
+  action: Action | [Action]
+
+Hero: 
+  _type: Section
+
+Logos:
+  _type: Section
+  logos: 
+    name: string
+    logo: string | svg | url | Image
+
+Features:
+  _type: Section 
+  features: 
+    icon: string | svg | url | Image
+    name: string
+    description: Markdown
+    
+Benefits:
+  _type: Section
+  benefits: 
+    icon: string | svg | url | Image
+    name: string
+    description: Markdown
+    
+Pricing: 
+  _type: Section
+  plans:
+    name: string
+    description: Markdown
+    monthlyPrice: currency
+    annualPrice: currency
+    features: [string]
+
+FAQ: 
+  _type: Section
+  questions:
+    question: string
+    answer: markdown
+
+Blog: 
+  _type: Section
+  posts:
+    title: string
+    description: markdown
+  
+Section: 
+  _sameAs: https://schema.org/WebPageElement
+  headerBadge: string
+  headerText: string
+  title: string
+  subtitle: string
+  description: string | markdown
+  image: url | svg | Code | Image
+  imagePosition: Left | Right | Center
+  action: Action | [Action]
+  
 Brand:
   name: string
   logo: string | url | svg | Image
@@ -63,13 +126,13 @@ SEO:
   additionalMetaTags: [MetaTag]
   additionalLinkTags: [LinkTag]
   twitter:
-    cardType: summary | summary_large_image | app | player
+    cardType: summary, summary_large_image, app, player
     site: twitterHandle = @opensaas_org
   facebook:
     appId: number
   openGraph:
     url: url
-    type: basic | video | article | book | profile | website
+    type: basic, video, article, book, profile, website
     title: string
     description: string
     images: [Image]
@@ -101,39 +164,9 @@ SEO:
     noimageindex: boolean
     noarchive: boolean
     maxSnippet: number
-    maxImagePreview: none | standard | large
+    maxImagePreview: none, standard, large
     maxVideoPreview: number
 
-
-Header:
-  logo: string | url | svg | Image
-  menu: [MenuItem]
-  search: boolean | html | jsx = false
-  repo: url
-  action: Action | [Action]
-
-Hero: 
-  _type: Section
-
-Logos:
-  _type: Section & Map<string, svg | url | Image>
-
-Features:
-  _type: Section & Map<string, Markdown>
-
-Benefits:
-  _type: Section & Map<string, Markdown>
-
-Section: 
-  _sameAs: https://schema.org/WebPageElement
-  headerBadge: string
-  headerText: string
-  title: string
-  subtitle: string
-  description: string | markdown
-  image: url | svg | Code | Image
-  imagePosition: Left | Right | Center
-  action: Action | [Action]
 
 LanguageAlternate:
   href: url
