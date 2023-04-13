@@ -1,5 +1,9 @@
 {
   "index": "Introduction",
+  "primitives": "Primitives",
+  "---": {
+    "type": "separator"
+  },
   "analytics": "Analytics",
   "branding": "Branding",
   "landing-pages": "Landing Pages",
