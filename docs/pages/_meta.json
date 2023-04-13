@@ -1,6 +1,11 @@
 {
   "index": "Introduction",
+  "analytics": "Analytics",
+  "branding": "Branding",
+  "landing-pages": "Landing Pages",
+  "okr": "Objectives & Key Results",
   "posts": {
-    "display": "hidden"
+    "title": "Blog",
+    "type": "page"
   }
 }
